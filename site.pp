@@ -7,6 +7,7 @@ node /^bootstrap\d+/ {
 ##
 # setup ceph configuration and osds on st nodes
 # These nodes wait at least one stmon to be registered in consul.
+# NAVEEN
 ##
 
 node /^st\d+/ {
